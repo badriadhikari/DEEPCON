@@ -1,3 +1,11 @@
-## DEEPCON: Protein Contact Prediction using Dilated Convolutional Neural Networks with Dropout  
-https://www.biorxiv.org/content/10.1101/590455v1
+### DEEPCON using Covariance features as input
 
+#### Predict
+```bash
+python ../deepcon-covariance.py --aln ./16pkA0.aln --rr ./16pkA0.rr
+```
+
+#### Evaluate
+```bash
+./coneva-lite.pl -pdb ./16pkA.pdb -rr ./16pkA0.rr
+```
