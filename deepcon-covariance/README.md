@@ -11,3 +11,20 @@ python ../deepcon-covariance.py --aln ./16pkA0.aln --rr ./16pkA0.rr
 ```bash
 ./coneva-lite.pl -pdb ./16pkA.pdb -rr ./16pkA0.rr
 ```
+
+#### Installation Instructions:
+    
+	pip3 install DEEPCON
+
+You will also need a deep learing backend that is Keras compatible:
+
+    pip3 install -U tensorflow
+
+#### Intstructions for User:
+
+Inside Python:
+
+	import DEEPCON
+	
+	...
+
