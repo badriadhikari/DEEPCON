@@ -13,6 +13,8 @@ setuptools.setup(
     long_description_content_type="text/markdown",
     url="https://github.com/badriadhikari",
     packages=setuptools.find_packages(),
+	install_requires=open('requirements.txt').read().splitlines(),
+	setup_requires=['numpy', 'Cython'],
     classifiers=[
         'Programming Language :: Python',
         'License :: OSI Approved :: MIT License',

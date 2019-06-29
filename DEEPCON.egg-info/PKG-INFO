@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: DEEPCON
+Version: 0.0.1
+Summary: Protein Contact Prediction using Dilated Convolutional Neural Networks with Dropout
+Home-page: https://github.com/badriadhikari
+Author: Badri Adhikari
+Author-email: adhikarib@umsl.edu
+License: UNKNOWN
+Description: ## DEEPCON: Protein Contact Prediction using Dilated Convolutional Neural Networks with Dropout  
+        
+        
+        #### Contact:
+        Email: adhikarib@umsl.edu  
+        Homepage: https://badriadhikari.github.io/  
+        Paper: https://www.biorxiv.org/content/10.1101/590455v1  
+        
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Intended Audience :: Science/Research
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
