@@ -8,8 +8,8 @@ Trained and validated using the 3456 proteins in the DeepCov dataset with the co
 
 You need a deep learing backend that is Keras compatible:
 
-    pip install -U tensorflow
-    pip install pyyaml
+    pip3 install -U tensorflow
+    pip3 install pyyaml
 	
 Install DEEPCON-Covariance package
 	
