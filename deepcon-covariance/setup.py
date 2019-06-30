@@ -14,7 +14,7 @@ setuptools.setup(
     url="https://github.com/badriadhikari/DEEPCON/tree/master/deepcon-covariance",
     packages=setuptools.find_packages(),
 	install_requires=open('requirements.txt').read().splitlines(),
-	setup_requires=['numpy'],
+	setup_requires=['numpy', 'pyyaml'],
     classifiers=[
         'Programming Language :: Python',
         'License :: OSI Approved :: MIT License',
