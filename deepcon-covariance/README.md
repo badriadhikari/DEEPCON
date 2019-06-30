@@ -14,11 +14,16 @@ python ../deepcon-covariance.py --aln ./16pkA0.aln --rr ./16pkA0.rr
 
 #### Installation Instructions:
     
-	pip3 install DEEPCON
 
-You will also need a deep learing backend that is Keras compatible:
+You need a deep learing backend that is Keras compatible:
 
-    pip3 install -U tensorflow
+    pip install -U tensorflow
+    pip install pyyaml
+	
+Install DEEPCON-Covariance package
+	
+    pip3 install DEEPCON
+
 
 #### Intstructions for User:
 
