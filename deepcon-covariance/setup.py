@@ -12,7 +12,13 @@ setuptools.setup(
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/badriadhikari/DEEPCON/tree/master/deepcon-covariance",
-    packages=find_packages(),
+    packages=find_packages(),    
+	package_data={
+        'DEEPCON.covariance': [
+            'DEEPCON/deepcon-covariance/weights-rdd-covariance.hdf5',
+        ]
+    },
+    include_package_data=True,
 	install_requires=open('requirements.txt').read().splitlines(),
 	setup_requires=['numpy', 'pyyaml'],
     classifiers=[
