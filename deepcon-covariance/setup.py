@@ -4,7 +4,7 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="DEEPCON-Covariance",
+    name="DEEPCON",
     version="0.0.1",
     author="Badri Adhikari",
     author_email="adhikarib@umsl.edu",
