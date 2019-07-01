@@ -12,7 +12,7 @@ setuptools.setup(
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/badriadhikari/DEEPCON/tree/master/deepcon-covariance",
-    packages=setuptools.find_packages(),
+    packages=find_packages(),
 	install_requires=open('requirements.txt').read().splitlines(),
 	setup_requires=['numpy', 'pyyaml'],
     classifiers=[
