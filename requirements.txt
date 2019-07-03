@@ -1,4 +1,0 @@
-numpy
-keras
-tensorflow
-pyyaml
