@@ -4,5 +4,5 @@
 #### Contact:
 Email: adhikarib@umsl.edu  
 Homepage: https://badriadhikari.github.io/  
-Paper: https://www.biorxiv.org/content/10.1101/590455v1  
+Paper: https://doi.org/10.1093/bioinformatics/btz593  
 
